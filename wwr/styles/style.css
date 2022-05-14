@@ -7,8 +7,8 @@ div {
     margin: 0 auto;
 }
 header {
-    background-color: darkslategray;
-    color: white;
+    background-color: white;
+    color: black;
 }
 nav a.hover {
     background-color: antiquewhite;
