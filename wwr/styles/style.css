@@ -1,0 +1,62 @@
+body {
+    background-color: aliceblue;
+    color: black;
+}
+div {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    background-color: darkslategray;
+    color: white;
+}
+nav a.hover {
+    background-color: antiquewhite;
+    color: black;
+    text-decoration: none;
+}
+.home-title {
+    background-color: aliceblue;
+    color: black;
+}
+h4 {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.book, .join {
+    background-color: white;
+    color: blue;
+    text-decoration: none;
+}
+.msg h2 {
+    background-color: antiquewhite;
+    color: black;
+}
+.msg p {
+    background-color: antiquewhite;
+    color: black;
+}
+#background {
+    height: 725px;
+}
+button {
+    color: cadetblue;
+    color: black;
+}
+.icon {
+    width: 80px;
+}
+footer h3 {
+    background-color: antiquewhite;
+    color: black;
+}
+footer a {
+    background-color: darkslategrey;
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    background-color: antiquewhite;
+    color: black;
+}
