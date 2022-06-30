@@ -70,7 +70,7 @@ nav {
     grid-row: 1/2;
     margin-top: 100px;
 }
-.about {
+.join {
     background-color: white;
     color: blue;
     text-decoration: none;
@@ -121,6 +121,16 @@ footer {
     margin-top: 100px;
     margin-left: 100px;
 }
+.feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    display: none;    
+    margin-left: 450px;  
+  }
 .footer .social img {
     padding-top: 15px;
     margin-left: 600px;
@@ -136,4 +146,29 @@ footer {
 .instagram {
     margin-top: -250px;
     margin-left: 820px;
+}
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-left: .5em;
 }
