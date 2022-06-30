@@ -1,0 +1,139 @@
+.content {
+    display: grid;
+    grid-template-columns: subgrid;
+    justify-items: center;
+    grid-gap: 20px;
+    max-width: 1200px;
+    float: left;
+    grid-column: auto;
+    grid-row: auto;
+    z-index: auto;
+}
+.home-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Raleway', 'Arial', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: silver;
+    color: black;
+    max-height: 200px;
+}
+nav a {
+    text-decoration: none;
+    color: blue;
+    text-align: center;
+    padding: 35px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+#logo-link {
+    padding-top: 5px;
+    justify-self: left;
+    align-self: center;
+}
+.logo {
+    max-width: 200px;
+    max-height: 200px;
+    border-style: inset;
+    border-color: blue;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+#design {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: 20px;
+}
+#design-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#design-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+.join {
+    background-color: white;
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+#design-img {
+    max-width: 1200px;
+    max-height: 900px;
+}
+#design-card {
+    display: grid;
+    position: absolute;
+    height: 800px;
+}
+.card-img {
+    display: grid;
+    grid-column: 2/3;
+    max-width: 500px;
+    max-height: 300px;
+    margin-top: -200px;
+    margin-left: 700px;
+}
+h1 {
+    margin-top: 50px;
+    margin-left: 350px;
+    z-index: 1;
+}
+p {
+    grid-column: 1/3;
+    margin-top: 200px;
+    margin-right: 600px;
+}
+footer {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: silver;
+    max-height: 200px;
+    margin-top: 100px;
+}
+.p1 {
+    margin-top: 100px;
+}
+.p2 {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.footer .social img {
+    padding-top: 15px;
+    margin-left: 600px;
+}
+.facebook {
+    margin-top: 0px;
+    margin-left: 600px;
+}
+.twitter {
+    margin-top: -150px;
+    margin-left: 710px;
+}
+.instagram {
+    margin-top: -250px;
+    margin-left: 820px;
+}
