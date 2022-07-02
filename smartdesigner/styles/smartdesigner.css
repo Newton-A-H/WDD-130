@@ -1,13 +1,10 @@
 .content {
     display: grid;
-    grid-template-columns: subgrid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
     justify-items: center;
     grid-gap: 20px;
     max-width: 1200px;
-    float: left;
-    grid-column: auto;
-    grid-row: auto;
-    z-index: auto;
 }
 .home-title {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -109,7 +106,8 @@ p {
 }
 footer {
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 8;
     background-color: silver;
     max-height: 200px;
     margin-top: 100px;
@@ -126,14 +124,11 @@ footer {
     margin-left: 600px;
 }
 .facebook {
-    margin-top: 0px;
-    margin-left: 600px;
+    grid-template-columns: 3/5;
 }
 .twitter {
-    margin-top: -150px;
-    margin-left: 710px;
+    grid-column: 4/5;
 }
 .instagram {
-    margin-top: -250px;
-    margin-left: 820px;
+    grid-template-columns: 5/5;
 }
